@@ -1,3 +1,9 @@
+# WeMaintain note
+Linux kernel used in MxAdvance with Radxa CM3 Module
+
+Use ``wemaintain/bsp`` tool to compile
+
+---
 Linux kernel
 ============
 
