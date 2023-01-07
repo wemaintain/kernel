@@ -1,0 +1,21 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+	compatible = "rockchip,rk3568";
+
+	fragment@0 {
+		target = <&i2c0>;
+
+		__overlay__ {
+			status = "okay";
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			pcf85063: pcf85063@51 {
+				compatible = "nxp,pcf85063";
+				reg = <0x51>;
+			};
+		};
+	};
+};
