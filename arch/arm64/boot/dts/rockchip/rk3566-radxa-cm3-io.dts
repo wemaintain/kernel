@@ -69,7 +69,7 @@
 &gpio_leds {
 	pi-led-green {
 		gpios = <&gpio4 4 GPIO_ACTIVE_LOW>;
-		linux,default-trigger = "heartbeat";
+		linux,default-trigger = "activity";
 		default-state = "on";
 		pinctrl-0 = <&pi_led>;
 	};
