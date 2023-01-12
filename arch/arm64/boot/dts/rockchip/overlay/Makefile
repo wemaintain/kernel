@@ -10,6 +10,10 @@ dtbo-$(CONFIG_ARCH_ROCKCHIP) += \
 	radxa-cm3-io-hd101boe9365-display.dtbo \
 	radxa-cm3-io-i2c0-hym8563.dtbo \
 	radxa-cm3-io-i2c0-pcf85063.dtbo \
+	radxa-cm3-io-uart2-m1.dtbo \
+	radxa-cm3-io-uart5-m0-rtscts.dtbo \
+	radxa-cm3-io-uart5-m0.dtbo \
+	radxa-cm3-io-uart6-m1.dtbo \
 	radxa-cm3-io-radxa-10p1inch-display.dtbo \
 	radxa-cm3-io-sharp-lq133t1jw01-without-hdmi.dtbo \
 	radxa-cm3-io-headphone.dtbo \
